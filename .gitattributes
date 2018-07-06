@@ -1,6 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-<#
 .SYNOPSIS
     Sets a known folder's path using SHSetKnownFolderPath.
 .PARAMETER KnownFolder
