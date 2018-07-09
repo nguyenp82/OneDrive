@@ -229,5 +229,4 @@ If (Test-Path $OneDriveFolder) {
     Redirect-Folder -SyncFolder $OneDriveFolder -GetFolder 'MyPictures' -SetFolder 'Pictures' -Target 'Pictures'
     Redirect-Folder -SyncFolder $OneDriveFolder -GetFolder 'Favorites' -SetFolder 'Favorites' -Target 'Favorites'
     Redirect-Folder -SyncFolder $OneDriveFolder -GetFolder 'Downloads' -SetFolder 'Downloads' -Target 'Downloads'
-    Redirect-Folder -SyncFolder $OneDriveFolder -GetFolder 'Pictures' -SetFolder 'Pictures' -Target 'Pictures'
 }
